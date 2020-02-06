@@ -9,7 +9,8 @@ ma = Marshmallow()
 
 # Initialize monoengine db connector
 db = mongoengine
-db.connect('todoapp_db')
+
+db.connect(host='mongodb+srv://mongodbuser:jjwQZ0J0j9P2j6aL@cluster0-3u8nd.mongodb.net/test?retryWrites=true&w=majority')
 
 # Map ObjectId field type to string
 Schema.TYPE_MAPPING[ObjectId] = fields.String
