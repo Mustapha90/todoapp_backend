@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 marshmallow = "==2.14.0"
 flask-marshmallow = "==0.8.0"
-Flask = "==0.12.2"
+Flask = "==1.0"
 Flask-PyMongo = "*"
 Flask-RESTful = "==0.3.6"
 flask-mongoengine = "*"
